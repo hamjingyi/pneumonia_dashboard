@@ -1,6 +1,9 @@
 # XAI pneumonia Dashboard
 2024/2025 Sem 1 WQF7009 Explainable AI (XAI)
 
+1. Folder: Part 1 Three Models Training Scripts: This folder consisting the script for model training for AA Part 1
+2. Folder: sample_data: this is the sample data needed for the XAI Dashboard AA Part 2
+3. File: 02_aa_part_2_dashboard.py: The python code for dashboard developing. Please replace with your path to sample_data and mobilenetv2_model.h5 to run the model.
 
 Dashboard is developed using Streamlit. The model used for backend prediction is the sequential model having MobineNetV2 as base model.
 
