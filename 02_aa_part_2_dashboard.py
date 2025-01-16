@@ -390,15 +390,17 @@ def explain_with_lime(img_path, model):
     return explanation, segments
     
 
-
-model = load_model('/content/drive/MyDrive/XAI/modelsaved/mobilenetv2_model.h5')
+# path using google drive
+# model = load_model('/content/drive/MyDrive/XAI/modelsaved/mobilenetv2_model.h5')
+model = load_model('mobilenetv2_model.h5')
 
 # Streamlit UI
 st.title("XAI: Pneumonia Dashboard")
 st.markdown('<p style="color:grey; font-style:italic;">Created by: Ham Jing Yi, 23100257</p>', unsafe_allow_html=True)
 
 # folder where sample images are stored/uploaded
-ROOT_FOLDER = '/content/drive/MyDrive/XAI/sample_data'
+# ROOT_FOLDER = '/content/drive/MyDrive/XAI/sample_data'
+ROOT_FOLDER = 'sample_data'
 image_files = [f for f in os.listdir(ROOT_FOLDER) if os.path.isfile(os.path.join(ROOT_FOLDER, f))]
 
 # drop down input
