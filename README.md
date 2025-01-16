@@ -5,7 +5,8 @@
 2. Folder: **sample_data**: This is the sample data needed for the XAI Dashboard AA Part 2. 
 3. File: **02_aa_part_2_dashboard.py**: The python code for dashboard developing. Please replace with your path to sample_data and mobilenetv2_model.h5 to run the model.
 4. File: **mobilenetv2_model.h5**: Backend model to run the pneumonia prediction for XAI dashboard.
-
+5. File: **requirement.txt**: Necessary Python packages.
+   
 Dashboard is developed using Streamlit. The model used for backend prediction is the sequential model having MobineNetV2 as base model.
 
 **Dashboard's features**
