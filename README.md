@@ -2,9 +2,9 @@
 2024/2025 Sem 1 WQF7009 Explainable AI (XAI)
 
 
-Dashboard is developed using Streamlit. The model used for backend prediction is the sequential model having MobineNetV2 as base model
+Dashboard is developed using Streamlit. The model used for backend prediction is the sequential model having MobineNetV2 as base model.
 
-Dashboard's features 
+**Dashboard's features**
 - Choose sample images from the drop-down list or drag and drop chest x-ray images to
 feed into the model and make predictions.
 - Show the name of the model used, accuracy information and prediction result.
