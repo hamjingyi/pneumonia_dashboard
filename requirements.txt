@@ -1,10 +1,10 @@
 streamlit
 tensorflow
-cv2
 matplotlib
 Pillow
 numpy
 pandas
-opencv-python
+opencv-python-headless
 lime
 scikit-image
+
